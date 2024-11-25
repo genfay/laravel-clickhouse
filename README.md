@@ -8,12 +8,12 @@ Eloquent model for ClickHouse
 
 ## Installation
 ```sh
-$ composer require merkeleon/laravel-clickhouse
+$ composer require genfay/laravel-clickhouse
 ```
 
 Then add the code above into your config/app.php file providers section
 ```php
-Merkeleon\LaravelClickHouse\ClickHouseServiceProvider::class,
+Genfay\LaravelClickHouse\ClickHouseServiceProvider::class,
 ```
 And add new connection into your config/database.php file. Something like this:
 ```php
@@ -69,7 +69,7 @@ Then create model
 ```php
 <?php
 
-use Merkeleon\LaravelClickHouse\Database\Eloquent\Model;
+use Genfay\LaravelClickHouse\Database\Eloquent\Model;
 
 class Payment extends Model
 {

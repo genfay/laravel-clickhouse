@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Esazykin\LaravelClickHouse\Tests;
+namespace Genfay\LaravelClickHouse\Tests;
 
 use Mockery;
 use Faker\Factory;

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Merkeleon\LaravelClickHouse\Providers;
+namespace Genfay\LaravelClickHouse\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\DatabaseManager;
-use Merkeleon\LaravelClickHouse\Database\Connection;
-use Merkeleon\LaravelClickHouse\Database\Eloquent\Model;
+use Genfay\LaravelClickHouse\Database\Connection;
+use Genfay\LaravelClickHouse\Database\Eloquent\Model;
 
 class ClickHouseServiceProvider extends ServiceProvider
 {
