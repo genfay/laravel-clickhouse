@@ -7,7 +7,7 @@ namespace Genfay\LaravelClickHouse\Tests\Unit\Database\Query;
 use PHPUnit\Framework\TestCase;
 use Genfay\LaravelClickHouse\Tests\Helpers;
 use Tinderbox\ClickhouseBuilder\Query\Grammar;
-use Genfay\LaravelClickHouse\Database\Connection;
+use Tinderbox\ClickhouseBuilder\Integrations\Laravel\Connection;
 use Tinderbox\ClickhouseBuilder\Query\Enums\Format;
 use Genfay\LaravelClickHouse\Database\Query\Builder;
 

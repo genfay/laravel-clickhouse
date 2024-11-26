@@ -11,7 +11,7 @@ use Tinderbox\ClickhouseBuilder\Query\Tuple;
 use Genfay\LaravelClickHouse\Tests\Helpers;
 use Tinderbox\ClickhouseBuilder\Query\Grammar;
 use Tinderbox\ClickhouseBuilder\Query\Identifier;
-use Genfay\LaravelClickHouse\Database\Connection;
+use Tinderbox\ClickhouseBuilder\Integrations\Laravel\Connection;
 use Tinderbox\ClickhouseBuilder\Query\Enums\Operator;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Genfay\LaravelClickHouse\Database\Eloquent\Builder;

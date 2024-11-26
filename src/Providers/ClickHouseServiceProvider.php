@@ -6,7 +6,7 @@ namespace Genfay\LaravelClickHouse\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\DatabaseManager;
-use Genfay\LaravelClickHouse\Database\Connection;
+use Tinderbox\ClickhouseBuilder\Integrations\Laravel\Connection;
 use Genfay\LaravelClickHouse\Database\Eloquent\Model;
 
 class ClickHouseServiceProvider extends ServiceProvider

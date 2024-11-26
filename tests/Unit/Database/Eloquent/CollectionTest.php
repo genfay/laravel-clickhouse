@@ -9,7 +9,7 @@ use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Database\DatabaseManager;
 use Genfay\LaravelClickHouse\Tests\Helpers;
-use Genfay\LaravelClickHouse\Database\Connection;
+use Tinderbox\ClickhouseBuilder\Integrations\Laravel\Connection;
 use Genfay\LaravelClickHouse\Database\Eloquent\Collection;
 use Genfay\LaravelClickHouse\Tests\EloquentModelCastingTest;
 

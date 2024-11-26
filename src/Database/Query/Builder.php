@@ -10,7 +10,7 @@ use Tinderbox\Clickhouse\Common\Format;
 use Illuminate\Support\Traits\Macroable;
 use Tinderbox\ClickhouseBuilder\Query\Grammar;
 use Tinderbox\ClickhouseBuilder\Query\BaseBuilder;
-use Genfay\LaravelClickHouse\Database\Connection;
+use Tinderbox\ClickhouseBuilder\Integrations\Laravel\Connection;
 
 
 

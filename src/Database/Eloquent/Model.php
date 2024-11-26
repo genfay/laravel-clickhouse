@@ -10,7 +10,7 @@ use Illuminate\Support\Str;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Contracts\Support\Arrayable;
 use Tinderbox\ClickhouseBuilder\Query\Grammar;
-use Genfay\LaravelClickHouse\Database\Connection;
+use Tinderbox\ClickhouseBuilder\Integrations\Laravel\Connection;
 use Illuminate\Database\ConnectionResolverInterface;
 use Illuminate\Database\Eloquent\Concerns\HasEvents;
 use Illuminate\Database\Eloquent\JsonEncodingException;
