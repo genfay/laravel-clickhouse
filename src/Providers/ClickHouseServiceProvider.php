@@ -15,13 +15,6 @@ class ClickHouseServiceProvider extends ServiceProvider
     {
         /** @var DatabaseManager $db */
         $db = $this->app->get('db');
-
-        $db->extend('clickhouse', function ($config, $name) {
-            $config['name'] = $name;
-
-            return new Connection($config);
-        });
-
         Model::setConnectionResolver($db);
     }
 }
